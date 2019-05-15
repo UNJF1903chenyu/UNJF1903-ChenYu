@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>导航栏</title>
+    <style>
+        .one{
+            height: 40px;/* div的高度是40像素 宽度是浏览器默认*/
+            background: #3b8ed3;/* 背景色*/
+        }
+        .left a{
+            padding: 0 30px;/*内边距，上下为0像素，左右为30像素*/
+            line-height: 40px;/*行高为40像素 */
+            font-size: 20px;/*字体大小为20像素*/
+            color: white;/*字体颜色为白色*/
+            text-decoration: none;/*下划线设置为没有*/
+            font-family: 宋体;/*字体*/
+        }
+        .right a{
+            padding: 0 10px;/* 内边距，上下为0像素， 左右为10像素*/
+            line-height: 40px;/* 行高为40像素*/
+            font-size: 15px;/* 字体为10像素*/
+            color: white;/*颜色为白色*/
+            text-decoration: none;/*下划线设置为没有*/
+            font-family: 宋体;/*字体*/
+        }
+        .two{
+            width: 1180px;/*长度是1180像素*/
+            height: 40px;/* div的高度是40像素 宽度是浏览器默认*/
+            background: #3b8ed3;/* 背景色*/
+            margin: 0 auto;/*上外边距和下外边距是 0px 左右外边距是水平居中的*/
+        }
+        .right{
+            float: right;/*右浮动*/
+            background: #0185e1;/*背景色*/
+            margin-right: 50px;/*右外边距为50像素*/
+        }
+        .left{
+            float: left;/*左浮动*/
+            margin-left: 30px;/*左外边距为50像素*/
+        }
+    </style>
+</head>
+    <div class="one">
+        <div class="two">
+            <div class="left">
+            <a href="" >
+                首页
+            </a>
+            <a href="">
+                国内机票
+            </a>
+            <a href="">
+                国际机票
+            </a>
+            <a href="">
+                民航咨询
+            </a>
+            <a href="">
+                明航问答
+            </a>
+            </div>
+            <div class="right">
+            <a href="">
+                登录
+            </a>
+            <a href="">
+                注册
+            </a>
+            <a href="">
+                用户中心
+            </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
