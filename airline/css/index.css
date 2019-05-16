@@ -1,0 +1,216 @@
+/*导航栏*/
+body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+.box{
+    height: 40px;/*高度为40px*/
+    width: 100%;/*宽度是100%*/
+    background: #3b8ed3;/*背景颜色*/
+}
+.con{
+    width: 1180px;/*长度是1180像素*/
+    height: 40px;/* 高度是40像素*/
+    background: #3b8ed3;/* 背景色*/
+    margin: auto;
+}
+.left{
+    width: 690px;/*宽是690像素*/
+    height: 100%;/*高是100%*/
+    float: left;/*左浮动*/
+}
+.con a{
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    /*color: #fff;*/
+    font-family: 宋体;/*字体*/
+}
+.left a{
+    font-size: 20px;
+    float: left;
+    color: #fff;
+    width: 20%;height: 100%;/*宽高*/
+}
+.right{
+    width: 240px;height: 100%;
+    float: right;
+    background:#0185e1 ;
+    position: relative;
+}
+.right a{
+    font-size: 15px;
+    float: left;
+    color: #fff;
+    width: 33.3333333%;height: 100%;/*宽高*/
+}
+.left a:hover{
+    background: white;
+    border-top: 3px solid orange;
+    color: #3b8ed3;
+}
+.right a:hover{
+    background: #3974e1;
+    color: white;
+}
+.active{
+    background: white;
+    border-top: 3px solid orange;
+    color: #000000;
+}
+.active-in a{
+    color: #3b8ed3;
+}
+
+.triangle{
+    width: 0px;height: 0px;
+    border-top: 10px solid #fff;
+    border-left: 5px solid #0185e1;
+    border-right: 5px solid #0185e1;
+    position: absolute;
+    right: 0;top: 15px;
+}
+ .triangle:hover{
+    width: 0px;height: 0px;
+    border-top: 10px solid white;
+    border-left: 5px solid #3974e1;
+    border-right: 5px solid #3974e1;
+    position: absolute;
+    right: 0;top: 15px;
+}
+ /*头部*/
+.header-box{
+    width: 1180px;/*长度是1180像素*/
+    height: 79px;
+    margin: auto;
+}
+.top{
+    float: right;
+}
+.header-city{
+    height: 30px;
+    width: 100%;
+}
+.header-city-list{
+
+    margin: 0 auto;
+    width: 1180px;
+}
+span{
+    font-size: 13px;
+}
+
+.header-city-list a{
+    margin: 0 4px;
+    font-size: 13px;
+    color: #0055AA;
+}
+.header-city-list a:hover{
+    color: orange;
+}
+/*轮播图*/
+.wheel-box{
+    width: 100%;height: 300px;
+    position: relative;
+}
+.banner1{
+    width: 100%;height: 100%;
+    background: url("../img/banner1.png") no-repeat center;
+    position: absolute;
+    left: 0;top: 0;
+}
+.bp_tit a{
+
+    line-height: 90px;
+}
+.banner2{
+    width: 100%;height: 100%;
+    background: url("../img/banner2.png") no-repeat center;
+    position: absolute;
+    left: 0;top: 0px;
+}
+.btns{
+    position: absolute;
+    width: 200px;height: 20px;
+    right: 20px;bottom: 20px;
+}
+/*购票流程*/
+.bprocess {
+    margin: 0 auto;
+    height:95px;
+    width:1180px;
+    position:relative;
+    color:#555;
+    overflow:hidden;
+    background:#f7f7f6;
+    border:1px solid #e6e6e6;
+    font-family:"宋体"
+}
+.bprocess .bp_tit {
+    font:18px/80px Microsoft YaHei;
+    width:145px;
+    text-align:right
+}
+.bprocess ul {
+    height:78px;
+    line-height:78px;
+    width:1000px;
+    position:absolute;
+    top:0;
+    left:190px
+}
+.bprocess li {
+    height:78px;
+    width:26.2%;
+    float:left;
+    position:relative;
+    background:url("../img/main.png") no-repeat;
+    background-position:-168px -126px
+}
+.bprocess li span {
+    position:absolute;
+    top:18px;
+    left:8px;
+    background:url("../img/main.png") no-repeat;
+    width:34px;
+    height:34px;
+    display:inline-block
+}
+.bprocess li span.bp-n1 {
+    background-position:-147px -73px
+}
+.bprocess li span.bp-n2 {
+    background-position:-200px -73px
+}
+.bprocess li span.bp-n3 {
+    background-position:-253px -73px
+}
+.bprocess li span.bp-n4 {
+    background-position:-308px -73px
+}
+.bprocess li p {
+    font-size:14px;
+    color:#999;
+    padding:14px 0 0 65px;
+    line-height:22px
+}
+.bprocess li p b {
+    font-size:18px;
+    color:#5f9ff1;
+    display:block;
+    font-weight:normal;
+    line-height:10px
+}
+.bprocess li.last {
+    width: 18%
+}
